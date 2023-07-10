@@ -18,6 +18,10 @@ header > h1{
     text-align: center;
 }
 
+header > h1 > span {
+    float: left;
+}
+
 main > article > h2{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 32px;
@@ -83,4 +87,28 @@ main > article > p > a {
 
 a:hover{
     text-decoration: underline;
+}
+
+main > ul > li > a.jogo{
+    text-decoration: none;
+}
+
+main > ul > li > a.jogo:hover{
+    text-decoration: underline;
+}
+
+h2.cont_ext{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 35px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+footer{
+    background-color: #c4170c;
+    height: 150px;
 }

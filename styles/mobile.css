@@ -6,6 +6,7 @@
 }
 
 
+
 header {
     background-color: #c4170c;
     padding: 10px;
@@ -22,6 +23,9 @@ header > h1 > span {
     float: left;
 }
 
+menu#menu{
+    display: none;
+}
 
 main > article > h2{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
@@ -129,12 +133,41 @@ ul.list{
 
 footer{
     background-color: #c4170c;
-    height: 150px;
+    height: 139px;
 }
+
+img.logo_footer{
+    width: 30px; 
+    padding-left: 20px; 
+    padding-top: 15px; 
+    margin-bottom: 10px;
+}
+
+p.ultimas{
+    padding-left: 20px; 
+    color: white; 
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 14px; 
+    font-weight: normal;
+}
+
+p.copy{
+    padding-left: 20px; 
+    padding-top: 35px; 
+    color: white; 
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 10px; 
+    font-weight: normal;
+}
+
+p.extra{
+    display: none;   
+}
+
 
 iframe.ytb{
     display: block;
     margin: auto;
     width: 90%;
-    height: 400px;
+    height: 350px;
 }

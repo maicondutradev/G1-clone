@@ -19,6 +19,27 @@
         text-align: center;
     }
 
+    menu#menu{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+    }
+
+    menu#menu > a{
+        text-decoration: none;
+        color: #a6130a;
+        font-size: 16px;
+        font-weight: bold;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 15px;
+    }
+    menu#menu > a:hover{
+        text-decoration: underline;
+    }
+
     main > article > p.subtitle{
         font-family:'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
@@ -110,5 +131,22 @@
         margin: auto;
         width: 80%;
         height: 400px;
+    }
+
+
+    p.extra{
+        display: block;
+        float: right;
+        color: white;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    footer{
+        background-color: #c4170c;
+        height: 155px;
     }
 }

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    header {
+        background-color: #c4170c;
+        padding: 16px;
+    }
+
+    img.logo{
+        width: 50px;
+    }
+
+    header > h1{
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 32px;
+        color: white;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    main > article > p.subtitle{
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 40px;
+        color: #555555;
+    }
+
+    main > article > p.porg1{
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+    
+    main > article > p.date{
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        margin-top: 8px;
+        padding-left: 20px;
+        padding-right: 35px;
+        margin-bottom: 30px;
+        color: #555555;
+    }
+
+    main {
+        width: 800px;
+        margin: auto;
+    }
+
+    main > article > img {
+        width: 70%;
+        margin: auto;
+        display: block;
+        border-radius: 15px;
+    }
+
+    main > article > h2{
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 56px;
+        font-weight: bold;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    main > article > p.conteudo{
+        margin-top: 70px;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: 20px;
+        font-weight: normal;
+        color: #555555;
+    }
+
+    h2.cont_ext{
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding-right: 70px;
+        padding-left: 70px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: #333333;
+    }
+
+    p.veja{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+
+    ul.list{
+        padding-left: 90px; 
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-size: 18px; 
+        font-weight: bold; 
+        margin-top: 20px; 
+        color: #333333;
+    }
+
+    iframe.ytb{
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 400px;
+    }
+}

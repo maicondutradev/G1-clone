@@ -14,13 +14,14 @@ header > h1{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     text-align: center;
 }
 
 header > h1 > span {
     float: left;
 }
+
 
 main > article > h2{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
@@ -33,7 +34,7 @@ main > article > h2{
 main > article > p.subtitle{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: normal;
     text-align: justify;
     padding-left: 20px;
     padding-right: 40px;
@@ -51,7 +52,7 @@ main > article > p.porg1{
 
 main > article > p.date{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 16px;
     margin-top: 8px;
     padding-left: 20px;
@@ -75,7 +76,7 @@ main > article > p.conteudo{
     padding-left: 20px;
     padding-right: 35px;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: normal;
     color: #555555;
 }
 
@@ -107,8 +108,33 @@ h2.cont_ext{
     margin-bottom: 20px;
     color: #333333;
 }
+p.veja{
+    padding-left: 20px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333333; 
+    margin-top: 20px;
+}
+
+ul.list{
+    padding-left: 40px; 
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    color: #333333;
+    margin-bottom: 40px;
+}
 
 footer{
     background-color: #c4170c;
     height: 150px;
+}
+
+iframe.ytb{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 400px;
 }

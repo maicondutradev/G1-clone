@@ -21,11 +21,9 @@ header > h1{
 
 header > h1 > span {
     float: left;
+    cursor: pointer;
 }
 
-menu#menu{
-    display: none;
-}
 
 main > article > h2{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
@@ -33,6 +31,10 @@ main > article > h2{
     font-weight: bold;
     padding: 20px;
     margin-top: 10px;
+}
+
+menu{
+    display: none;
 }
 
 main > article > p.subtitle{

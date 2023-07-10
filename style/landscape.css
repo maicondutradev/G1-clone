@@ -40,6 +40,10 @@
         text-decoration: underline;
     }
 
+    menu.itens{
+        display:block;
+    }
+
     main > article > p.subtitle{
         font-family:'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;

@@ -11,6 +11,14 @@ header {
     background-color: #c4170c;
     padding: 10px;
 }
+
+header.fixed {
+    position: fixed;
+    top: 0;
+    width: 95.9%;
+    z-index: 999;
+}
+
 header > h1{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
@@ -104,6 +112,10 @@ main > ul > li > a.jogo:hover{
     text-decoration: underline;
 }
 
+img.apple{
+    padding-top: 70px;
+}
+
 h2.cont_ext{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -172,4 +184,5 @@ iframe.ytb{
     margin: auto;
     width: 90%;
     height: 350px;
+    padding-bottom: 300px;
 }

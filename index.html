@@ -8,13 +8,13 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <title>Apple bate novo recorde e alcança US$3 trilhões de valor de mercado</title>
+    <title>Apple bate novo recorde e alcança US$3 trilhões de valor de mercado</title> 
 </head>
 <body>
     <header>
         <h1><span class="material-icons" style="float: right;">search</span>
             <span class="material-icons" id="menu">menu</span>
-            <img src="imagens/g1-logo-7.png" alt="" style="width: 25px; float: left; margin-left: 5px;" class="logo">
+            <img src="imagens/g1-logo-7.png" alt="" style="width: 20px; float: left; margin-left: 5px;" class="logo">
             TECNOLOGIA
         </h1>
     </header>
@@ -29,16 +29,18 @@
                 Analistas ouvidos pela agência Reuters acreditam que a expectativa pela redução da taxa de juros nos EUA e o otimismo do mercado com o potencial da inteligência artificial têm favorecido a dona do iPhone.
             </p>
 
-            <p class="porg1">Por g1 <br>
+            <p class="porg1">Por g1<br>
             </p>
             <p class="date">
                 30/06/2023 10h22 Atualizado há uma semana
             </p>
+            <hr>
 
-            <img src="imagens/apple_logo.jpg" alt="logo da apple">
+            <img src="imagens/apple_logo.jpg" alt="logo da apple" class="apple">
                 
             <p class="conteudo">
                 A Apple bateu seu próprio recorde na manhã desta sexta-feira (30) e atingiu o valor de mercado de US$ 3 trilhões, segundo o índice Nasdaq.
+                <br>
                 <br>
                 <br>
                 O bom resultado surge um dia após o <a href="#">iPhone, seu principal produto, completa 16 anos.</a>
@@ -47,13 +49,16 @@
                 Na quinta-feira, <a href="#">a empresa já se aproximava do valor, sendo avaliada em torno de US$ 2,97 trilhões</a>, de acordo com dados da Refinitiv.
                 <br>
                 <br>
+                <br>
                 O valor de mercado das ações da Apple <a href="#">ultrapassou brevemente os US$ 3 trilhões em negociações no dia 3 de janeiro de 2022</a>, mas encerrou a sessão ligeiramente abaixo desse patamar.
+                <br>
                 <br>
                 <br>
                 Os ganhos mais recentes nos papéis da empresa mais valiosa do mundo seguem a forte recuperação de vários pesos pesados de tecnologia em Wall Street este ano, impulsionados pela expectativa de que o Federal Reserve está se aproximando do fim de sua campanha de aumentos de juros e pelo otimismo com o potencial da inteligência artificial.
                 <br>
                 <br>
                 "Não houve realmente nenhuma informação fundamental nova que pudesse apoiar o movimento das ações", disse Thomas Martin, gestor sênior de portfólio da Globalt Investments à agência de notícia Reuters.
+                <br>
                 <br>
                 <br>
                 A aproximação da Apple à marca dos US$ 3 trilhões segue o lançamento, em 5 de junho, <a href="#">de um caro dispositivo de realidade aumentada</a>, sua aposta mais arriscada desde a introdução do iPhone.
@@ -75,5 +80,17 @@
         <p class="copy">&#169; Copyright 2000-2023 Globo Comunicação e Participações S.A.</p>
         <p class="extra">princípios editoriais | política de privacidade | minha conta | anuncie conosco</p>
     </footer>
+    
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            const scrollY = window.scrollY;
+            if (scrollY > 0) {
+                header.classList.add('fixed');
+            } else {
+                header.classList.remove('fixed');
+            }
+        });
+    </script>
 </body>
 </html>

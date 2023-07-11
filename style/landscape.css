@@ -7,16 +7,19 @@
         padding: 16px;
     }
 
-    img.logo{
-        width: 50px;
-    }
-
     header > h1{
         font-family:'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 32px;
         color: white;
         font-weight: normal;
         text-align: center;
+    }
+
+    header.fixed {
+        position: fixed;
+        top: 0;
+        width: 97.6%;
+        z-index: 999;
     }
 
     menu#menu{
@@ -49,8 +52,6 @@
         font-size: 20px;
         font-weight: normal;
         text-align: justify;
-        padding-left: 20px;
-        padding-right: 40px;
         color: #555555;
     }
 
@@ -75,7 +76,7 @@
     }
 
     main {
-        width: 800px;
+        width: 1000px;
         margin: auto;
     }
 
@@ -98,31 +99,35 @@
         margin-top: 70px;
         font-family:'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: justify;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 170px;
+        padding-right: 170px;
         font-size: 20px;
         font-weight: normal;
         color: #555555;
+    }
+
+    img.apple{
+        width: 670px;
     }
 
     h2.cont_ext{
         font-family:'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
         font-weight: bold;
-        padding-right: 70px;
-        padding-left: 70px;
+        padding-right: 170px;
+        padding-left: 170px;
         margin-top: 30px;
         margin-bottom: 20px;
         color: #333333;
     }
 
     p.veja{
-        padding-right: 70px;
-        padding-left: 70px;
+        padding-right: 170px;
+        padding-left: 170px;
     }
 
     ul.list{
-        padding-left: 90px; 
+        padding-left: 210px; 
         font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
         font-size: 18px; 
         font-weight: bold; 
@@ -133,8 +138,9 @@
     iframe.ytb{
         display: block;
         margin: auto;
-        width: 80%;
+        width: 65%;
         height: 400px;
+        margin-bottom: 300px;
     }
 
 
